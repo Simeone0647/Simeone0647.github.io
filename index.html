@@ -5,12 +5,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/theme.css">
-    <title>ABOUT PAGE</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b1e1d426b3.js" crossorigin="anonymous"></script>
+
+    <title>Simeone Ambrocio</title>
 </head>
 <body>
-    <div class="container">
-        <h1>ABOUT ME</h1>
-        <p>Hi</p>
+    <div class="header" id="stickyHeader">
+        <button class="button header-button" style="margin-right: 1.5vw;" onclick="goToSection('workExpSection')">Work Experience</button>
+        <button class="button header-button" style="margin-right: 1.5vw;" onclick="goToSection('projectsSection')">Projects</button>
+        <button class="button header-button" style="margin-right: 7vw;" onclick="goToSection('skillsSection')">Skills</h1>
+    </div>
+
+    <div class="content">
+        <div class="title-container"> 
+            <div style="display: flex;">
+                <img src="assets/me.jpeg" style="width: 15vw; height: auto; border-radius: 200px; margin-right: 2vw; margin-left: 2vw;">
+                <div class="presentation-text">
+                    <h2 style="font-size: 1.3vw;">Hello! I am Simeone Ambrocio,<br></h2>
+                    <h3 style="font-weight: lighter; font-size: 1vw;">A passionate Videogame Development Engineer who loves to find the simplest and efficent way to solve any kind of problem.
+                       Tools, gameplay, game engines programming and 3D graphics are my topics.</h3>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: right; padding-right: 2.3vw;">
+                <h3 style="font-weight: lighter; font-size: 1vw; margin-right: 15vw;">Download PDF resume <a style="font-weight: lighter; font-size: 1vw;" href="assets/Resume.pdf" target="_blank" download="Simeone_Ambrocio_Resume.pdf">here</a> <i class="fa-solid fa-paperclip"></i> </h3>
+                <a class="contact-icon-btn" href="https://www.linkedin.com/in/simeboo" target="_blank" style="margin-right: 2vw; padding-left: 0.1vw; padding-right: 0.1vw;"><i class="fa-brands fa-linkedin fa-5x"></i></a>
+                <a class="contact-icon-btn" href="https://github.com/Simeone0647" target="_blank" style="margin-right: 2vw; padding-left: 0.1vw; padding-right: 0.1vw;"><i class="fa-brands fa-github fa-5x"></i></a>
+                <a class="contact-icon-btn" href="mailto:simamb@outlook.com" style="padding-left: 0.1vw; padding-right: 0.1vw;"><i class="fa-solid fa-envelope fa-5x"></i></a>
+            </div>
+        </div>
+
+        <!--WORK EXPERIENCE-->
+        <div class="info-container" id="workExpSection">
+            <h1 class="h1-info-container">Work Experience<br></h1>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2><a class="workplace-title" href="https://carbonmachina.com/" target="_blank">Carbon Machina </a><i class="fa-solid fa-link"></i></i><br></h2>
+                        <h3 class="h3-job-position">Gameplay Programmer/Audio Programmer</h3>
+                        <h3 class="h3-job-time">March 2023 - Present</h3>
+                        <h3 class="h3-job-tools">Unity</h3>
+                        <p>Part of the development team of <a href="https://heavencrawler.webflow.io/" target="_blank">Heaven Crawler</a> and [Unreleased Game]. Responsible for the entire in-game audio implementation and some game systems.</p>
+                    </div>
+                    <div>
+                        <img src="assets/hcTitleScreen.png" style="width: 30vw;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2><a class="workplace-title" href="https://www.linkedin.com/company/attribute-overload/" target="_blank">Attribute Overload </a><i class="fa-solid fa-link"></i></i><br></h2>
+                        <h3 class="h3-job-position">Programmer</h3>
+                        <h3 class="h3-job-time">March 2023 - Present</h3>
+                        <h3 class="h3-job-tools">Unreal Engine, Unity</h3>
+                        <p>Member of the development team that offer professional videogame development and interactive software services.</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2 style="color: #293241; font-weight: lighter; font-size: 1.3vw;">Blix Studio<br></h2>
+                        <h3 class="h3-job-position">Flutter Programmer</h3>
+                        <h3 class="h3-job-time">October 2023 - January 2024</h3>
+                        <h3 class="h3-job-tools">Flutter</h3>
+                        <p>Front end developer of a sales application.</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container"> 
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2><a class="workplace-title" href="https://carbonmachina.com/" target="_blank">Carbon Machina </a><i class="fa-solid fa-link"></i><br></h2>
+                        <h3 class="h3-job-position">Gameplay Programmer</h3>
+                        <h3 class="h3-job-time">August 2021 - August 2022 (1 year)</h3>
+                        <h3 class="h3-job-tools">Unreal Engine 4, C++, Blueprints</h3>
+                        <p>Internship where I helped to improve the game framework, develop the main character's weapons logic, a farmsim crafting system.</p>
+                    </div>
+                    <div>
+                        <iframe width="560vw" height="315vw" src="https://www.youtube.com/embed/2jAtqXzW8D4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--PROJECTS-->
+        <div class="info-container" id="projectsSection">
+            <h1 class="h1-info-container">Projects<br></h1>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2 style="color: #293241; font-weight: lighter; font-size: 1.3vw;">Boo Engine<br></h2>
+                        <h3 class="h3-job-tools">C++, DirectX 11, OpenGL</h3>
+                        <p>Made from scratch. I use it to improve my C++ and graphics programming skills, as my video game engines architecture knowledge.</p>
+                    </div>
+                    <div style="display: flex;">
+                        <iframe width="560vw" height="315vw" src="https://www.youtube.com/embed/mfRMzHacc5I?si=SEPHV4ChZPHc-sv4" frameborder="0" style="margin-right: 1vw;" allowfullscreen></iframe>
+                        <iframe width="560vw" height="315vw" src="https://www.youtube.com/embed/4jd2eb8WBSY?si=roQ4tGhlrKE6UCnD" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2 style="color: #293241; font-weight: lighter; font-size: 1.3vw;">Capture and generation of hyperspectral images simulator<br></h2>
+                        <h3 class="h3-job-tools">Unreal Engine 4</h3>
+                        <p>School research project presented in spatial conferences around the country.<br>
+                           Responsible of the real-time image capture and export
+                           system made in Unreal Engine 4 and its transcription into the paper.</p>
+                    </div>
+                    <div style="display: flex;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SKILLS-->
+        <div class="info-container" id="skillsSection" style="width: 60%;">
+            <h1 class="h1-info-container">Skills<br></h1>
+            <div class="work-container" style="width: 50%;">
+                <div class="work-column">
+                    <div>
+                        <h2>Languages<br></h2>
+                        <p>C++<br></p>
+                        <p>C#<br></p>
+                        <p>HLSL<br></p>
+                        <p>GLSL<br></p>
+                        <p>Python<br></p>
+                        <p>HTML5/CSS/JavaScript<br></p>
+                        <p>Dart<br></p>
+                    </div>
+                    <div style="margin-right: 3vw;">
+                        <h2>Engines/Frameworks/Tools<br></h2>
+                        <div style="display: flex; justify-content: space-between;">
+                            <div>
+                                <p>Unreal Engine 4/5<br></p>
+                                <p>Unity<br></p>
+                            </div>
+                            <div>
+                                <p>SFML<br></p>
+                                <p>ImGui<br></p>
+                                <p>FMOD<br></p>
+                                <p>Flutter</p>
+                                <p>GitHub/GitBash<br></p>
+                                <p>Perforce<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Fields<br></h2>
+                        <p>Tools<br></p>
+                        <p>Gameplay<br></p>
+                        <p>Engine<br></p>
+                        <p>Audio<br></p>
+                        <p>User Interface<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
+<script>
+    window.onscroll = function() { tryStick() };
+    
+    var header = document.getElementById("stickyHeader");
+    var sticky = header.offsetTop;
+    
+    function tryStick()
+    {
+      if (window.pageYOffset > sticky) { header.classList.add("sticky"); }
+      else { header.classList.remove("sticky"); }
+    }
+
+    function goToSection(sectionName)
+    {
+        var section = document.getElementById(sectionName);
+        if (null != section) { section.scrollIntoView({ behavior: 'smooth' }); }
+    }
+</script>
+
 </html>
