@@ -38,7 +38,7 @@ body {
     margin-top: 1vw;
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
-    border-width: 0.2px;
+    border-width: 0.1vw;
     border-style: solid;
     border-color: #ee6c4d;
 }
@@ -74,7 +74,7 @@ body {
     padding: 0.8vw; /* Add some padding inside the container */
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
-    border-width: 2px;
+    border-width: 0.1vw;
     border-style: solid;
     border-color: #ee6c4d;
     margin-bottom: 2vw; /* Adjust the value as needed */
@@ -136,8 +136,8 @@ body {
     padding-left: 1vw;
     font-size: 1.5vw;
     letter-spacing: 0.1vw;
-    text-shadow: 1.5px 0 #000000, -1.5px 0 #000000, 0 1.5px #000000, 0 -1.5px #000000,
-                 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+    text-shadow: 0.08vw 0 #000000, -0.08vw 0 #000000, 0 0.08vw #000000, 0 -0.08vw #000000,
+                 0.05vw 0.05vw #000000, -0.05vw -0.05vw #000000, 0.05vw -0.05vw #000000, -0.05vw 0.05vw #000000;
 }
 
 .h2-table-title {
