@@ -13,18 +13,18 @@ body {
 .info-container {
     width: 80%;
     margin: 0 auto; /* Center the container horizontally */
-    padding: 10px; /* Add some padding inside the container */
+    padding: 0.4vw; /* Add some padding inside the container */
     background-color: #98c1d9; /* Set a background color for the container */
-    border-radius: 15px;
+    border-radius: 0.5vw;
     margin-bottom: 2vw; /* Adjust the value as needed */
 }
 
 .title-container {
     width: 80%;
     margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add some padding inside the container */
+    padding: 0.8vw; /* Add some padding inside the container */
     background-color: #98c1d9; /* Set a background color for the container */
-    border-radius: 15px;
+    border-radius: 0.5vw;
     margin-bottom: 2vw; /* Adjust the value as needed */
     margin-top: 2vw;
 }
@@ -37,8 +37,8 @@ body {
     padding-bottom: 0.5vw;
     margin-top: 1vw;
     background-color: #e0fbfc; /* Set a background color for the container */
-    border-radius: 15px;
-    border-width: 2px;
+    border-radius: 0.5vw;
+    border-width: 0.2px;
     border-style: solid;
     border-color: #ee6c4d;
 }
@@ -71,9 +71,9 @@ body {
 .work-container {
     width: 80%;
     margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add some padding inside the container */
+    padding: 0.8vw; /* Add some padding inside the container */
     background-color: #e0fbfc; /* Set a background color for the container */
-    border-radius: 15px;
+    border-radius: 0.5vw;
     border-width: 2px;
     border-style: solid;
     border-color: #ee6c4d;
@@ -111,7 +111,7 @@ body {
 .header-button:hover {
     background-color: #e0fbfc56;
     border: none;
-    border-radius: 15px;
+    border-radius: 0.5vw;
     text-align: center;
     cursor: pointer;
     font-size: 1.3vw;
@@ -134,21 +134,38 @@ body {
 .h1-info-container {
     color: #ee6c4d;
     padding-left: 1vw;
+    font-size: 1.5vw;
     letter-spacing: 0.1vw;
     text-shadow: 1.5px 0 #000000, -1.5px 0 #000000, 0 1.5px #000000, 0 -1.5px #000000,
                  1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
+.h2-table-title {
+    font-size: 0.9vw;
+}
+
 .h3-job-position {
     color: #3d5a80;
+    font-size: 0.75vw;
 }
 
 .h3-job-time {
     color: #5c7ba3;
+    font-size: 0.70vw;
+
 }
 
 .h3-job-tools {
     color: #6788b3;
+    font-size: 0.65vw;
+}
+
+.p-job-desc {
+    font-size: 0.65vw;
+}
+
+.p-table-row {
+    font-size: 0.65vw;
 }
 
 .workplace-title:link {
