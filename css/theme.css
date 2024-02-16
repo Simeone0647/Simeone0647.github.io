@@ -144,6 +144,10 @@ body {
     font-size: 0.9vw;
 }
 
+.h2-work-title {
+    margin: 0;
+}
+
 .h3-job-position {
     color: #3d5a80;
     font-size: 0.75vw;
