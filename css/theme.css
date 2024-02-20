@@ -19,8 +19,27 @@ body {
     margin-bottom: 2vw; /* Adjust the value as needed */
 }
 
+.info-container-v {
+    width: 90%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0.4vw; /* Add some padding inside the container */
+    background-color: #98c1d9; /* Set a background color for the container */
+    border-radius: 0.5vw;
+    margin-bottom: 2vw; /* Adjust the value as needed */
+}
+
 .title-container {
     width: 80%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0.8vw; /* Add some padding inside the container */
+    background-color: #98c1d9; /* Set a background color for the container */
+    border-radius: 0.5vw;
+    margin-bottom: 2vw; /* Adjust the value as needed */
+    margin-top: 2vw;
+}
+
+.title-container-v {
+    width: 90%;
     margin: 0 auto; /* Center the container horizontally */
     padding: 0.8vw; /* Add some padding inside the container */
     background-color: #98c1d9; /* Set a background color for the container */
@@ -36,6 +55,20 @@ body {
     padding-right: 1vw;
     padding-bottom: 0.5vw;
     margin-top: 1vw;
+    background-color: #e0fbfc; /* Set a background color for the container */
+    border-radius: 0.5vw;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #ee6c4d;
+}
+
+.presentation-text-v {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-left:  1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
     border-width: 0.1vw;
@@ -81,11 +114,24 @@ body {
     letter-spacing: 0.01vw;
 }
 
+.work-container-v {
+    width: 90%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0.8vw; /* Add some padding inside the container */
+    background-color: #e0fbfc; /* Set a background color for the container */
+    border-radius: 0.5vw;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #ee6c4d;
+    margin-bottom: 2vw; /* Adjust the value as needed */
+    letter-spacing: 0.01vw;
+}
+
 .work-desc-paragraph {
     line-height: 1.5;
 }
 
-.work-column {
+.work-row {
     display: flex;
     justify-content: space-between;
 }
@@ -119,6 +165,27 @@ body {
     font-weight: bold;
 }
 
+.header-button-v {
+    background-color: #ffffff00;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 3vw;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.header-button-v:hover {
+    background-color: #e0fbfc56;
+    border: none;
+    border-radius: 0.5vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 3vw;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
@@ -144,15 +211,20 @@ body {
                  0.05vw 0.05vw #000000, -0.05vw -0.05vw #000000, 0.05vw -0.05vw #000000, -0.05vw 0.05vw #000000;
 }
 
-.h2-table-title {
-    font-size: 0.9vw;
-}
-
-.h2-table-title-v {
-    font-size: 2vw;
+.h1-info-container-v {
+    color: #ee6c4d;
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    text-shadow: 0.08vw 0 #000000, -0.08vw 0 #000000, 0 0.08vw #000000, 0 -0.08vw #000000,
+                 0.05vw 0.05vw #000000, -0.05vw -0.05vw #000000, 0.05vw -0.05vw #000000, -0.05vw 0.05vw #000000;
 }
 
 .h2-work-title {
+    margin: 0;
+}
+
+.h2-work-title-v {
     margin: 0;
 }
 
@@ -161,10 +233,19 @@ body {
     font-size: 0.75vw;
 }
 
+.h3-job-position-v {
+    color: #3d5a80;
+    font-size: 3.25vw;
+}
+
 .h3-job-time {
     color: #5c7ba3;
     font-size: 0.70vw;
+}
 
+.h3-job-time-v {
+    color: #5c7ba3;
+    font-size: 3.15vw;
 }
 
 .h3-job-tools {
@@ -172,8 +253,25 @@ body {
     font-size: 0.65vw;
 }
 
+.h3-job-tools-v {
+    color: #6788b3;
+    font-size: 3vw;
+}
+
 .p-job-desc {
     font-size: 0.65vw;
+}
+
+.p-job-desc-v {
+    font-size: 3vw;
+}
+
+.h2-table-title {
+    font-size: 0.9vw;
+}
+
+.h2-table-title-v {
+    font-size: 3vw;
 }
 
 .p-table-row {
@@ -181,7 +279,7 @@ body {
 }
 
 .p-table-row-v {
-    font-size: 1.2vw;
+    font-size: 2.8vw;
 }
 
 .workplace-title:link {
@@ -208,4 +306,30 @@ body {
     color: #293241;
     font-weight: lighter;
     font-size: 1.3vw;
+}
+
+.workplace-title-v:link {
+    text-decoration: none;
+    color: #293241;
+    font-weight: lighter;
+    font-size: 3.5vw;
+}
+
+.workplace-title-v:visited {
+    color: #293241;
+    font-weight: lighter;
+    font-size: 3.5vw;
+}
+
+.workplace-title-v:hover {
+    color: #293241;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 3.5vw;
+}
+
+.workplace-title-v:active {
+    color: #293241;
+    font-weight: lighter;
+    font-size: 3.5vw;
 }
