@@ -11,12 +11,15 @@
     <title>Simeone Ambrocio</title>
 </head>
 <body>
-    <div class="header" id="stickyHeader">
-        <button class="button header-button" style="margin-right: 1.5vw;" onclick="goToSection('workExpSection')">Work Experience</button>
-        <button class="button header-button" style="margin-right: 1.5vw;" onclick="goToSection('projectsSection')">Projects</button>
-        <button class="button header-button" style="margin-right: 7vw;" onclick="goToSection('skillsSection')">Skills</h1>
-    </div>
-    <div class="content">
+    <!--HORIZONTAL PAGE-->
+    <div class="content" id="horizontal-content">
+        <div class="header" id="stickyHeader">
+            <button class="button header-button" style="margin-right: 1.5vw;" onclick="goToSection('workExpSection')">Work Experience</button>
+            <button class="button header-button" style="margin-right: 1.5vw;" onclick="goToSection('projectsSection')">Projects</button>
+            <button class="button header-button" style="margin-right: 7vw;" onclick="goToSection('skillsSection')">Skills</h1>
+        </div>
+
+        <!--PRESENTATION-->
         <div class="title-container"> 
             <div style="display: flex;">
                 <img src="assets/me.jpeg" style="width: 15vw; height: auto; border-radius: 8vw; margin-right: 2vw; margin-left: 2vw;">
@@ -43,7 +46,7 @@
             <div class="work-container">
                 <div class="work-column">
                     <div class="work-desc-paragraph">
-                        <h2 class="h2-work-title"><a class="workplace-title" href="https://carbonmachina.com/" target="_blank">Carbon Machina </a><i class="fa-solid fa-link fa-fw" style="font-size: 1vw;"></i></i><br></h2>
+                        <a class="workplace-title" href="https://carbonmachina.com/" target="_blank">Carbon Machina </a><i class="fa-solid fa-link fa-fw" style="font-size: 1vw;"></i></i><br>
                         <h3 class="h3-job-position">Gameplay Programmer/Audio Programmer</h3>
                         <h3 class="h3-job-time">March 2023 - Present</h3>
                         <h3 class="h3-job-tools">Unity</h3>
@@ -58,7 +61,7 @@
             <div class="work-container">
                 <div class="work-column">
                     <div class="work-desc-paragraph">
-                        <h2 class="h2-work-title"><a class="workplace-title" href="https://www.linkedin.com/company/attribute-overload/" target="_blank">Attribute Overload </a><i class="fa-solid fa-link" style="font-size: 1vw;"></i></i><br></h2>
+                        <a class="workplace-title" href="https://www.linkedin.com/company/attribute-overload/" target="_blank">Attribute Overload </a><i class="fa-solid fa-link" style="font-size: 1vw;"></i></i><br>
                         <h3 class="h3-job-position">Programmer</h3>
                         <h3 class="h3-job-time">March 2023 - Present</h3>
                         <h3 class="h3-job-tools">Unreal Engine, Unity</h3>
@@ -88,7 +91,7 @@
             <div class="work-container"> 
                 <div class="work-column">
                     <div class="work-desc-paragraph">
-                        <h2 class="h2-work-title"><a class="workplace-title" href="https://carbonmachina.com/" target="_blank">Carbon Machina </a><i class="fa-solid fa-link" style="font-size: 1vw;"></i><br></h2>
+                        <a class="workplace-title" href="https://carbonmachina.com/" target="_blank">Carbon Machina </a><i class="fa-solid fa-link" style="font-size: 1vw;"></i><br>
                         <h3 class="h3-job-position">Gameplay Programmer</h3>
                         <h3 class="h3-job-time">August 2021 - August 2022 (1 year)</h3>
                         <h3 class="h3-job-tools">Unreal Engine 4, C++, Blueprints</h3>
@@ -178,25 +181,214 @@
             </div>
         </div>
     </div>
+
+    <!--VERTICAL PAGE-->
+    <div class="content" id="vertical-content">
+        <div class="header" id="stickyHeader-v">
+            <button class="button header-button" style="margin-right: 1.5vw; font-size: 2vw;" onclick="goToSection('workExpSection')">Work Experience</button>
+            <button class="button header-button" style="margin-right: 1.5vw; font-size: 2vw;" onclick="goToSection('projectsSection')">Projects</button>
+            <button class="button header-button" style="margin-right: 7vw; font-size: 2vw;" onclick="goToSection('skillsSection')">Skills</h1>
+        </div>
+
+        <!--PRESENTATION-->
+        <div class="title-container"> 
+            <div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img src="assets/me.jpeg" style="width: 70%; height: auto; border-radius: 100%; padding: 3vw 3vw;">
+                </div>
+                <div class="presentation-text" style="width: 80%; height: auto; margin: 0 auto;">
+                    <h2 style="font-size: 2.3vw; text-align: center;">Hello! I am Simeone Ambrocio,<br></h2>
+                    <h3 style="font-weight: lighter; font-size: 2vw;">A passionate Videogame Development Engineer who loves to find the simplest and efficent way to solve any kind of problem.
+                       Tools, gameplay, game engines programming and 3D graphics are my topics.</h3>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center; padding-top: 2vw;">
+                <h3 style="font-weight: lighter; font-size: 2vw; margin-right: 9vw;">Download PDF resume <a style="font-weight: lighter; font-size: 2vw;" href="assets/Resume.pdf" target="_blank" download="Simeone_Ambrocio_Resume.pdf">here</a> <i class="fa-solid fa-paperclip"></i> </h3>
+                <div style="font-size: 5vw;">
+                    <a class="contact-icon-btn" href="https://www.linkedin.com/in/simeboo" target="_blank" style="margin-right: 0.5vw; padding-left: 0.1vw; padding-right: 0.1vw;"><i class="fa-brands fa-linkedin fa-fw"></i></a>
+                    <a class="contact-icon-btn" href="https://github.com/Simeone0647" target="_blank" style="margin-right: 0.5vw; padding-left: 0.1vw; padding-right: 0.1vw;"><i class="fa-brands fa-github fa-fw"></i></a>
+                    <a class="contact-icon-btn" href="mailto:simamb@outlook.com" style="padding-left: 0.1vw;"><i class="fa-solid fa-envelope fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--WORK EXPERIENCE-->
+        <div class="info-container" id="workExpSection">
+            <h1 class="h1-info-container" style="font-size: 3.5vw; text-align: center;">Work Experience<br></h1>
+
+            <div class="work-container">
+                <div>
+                    <div class="work-desc-paragraph">
+                        <a class="workplace-title" href="https://carbonmachina.com/" target="_blank" style="font-size: 2.5vw;">Carbon Machina </a><i class="fa-solid fa-link fa-fw" style="font-size: 2vw;"></i></i><br>
+                        <h3 class="h3-job-position" style="font-size: 1.5vw;">Gameplay Programmer/Audio Programmer</h3>
+                        <h3 class="h3-job-time" style="font-size: 1.2vw;">March 2023 - Present</h3>
+                        <h3 class="h3-job-tools" style="font-size: 1vw;">Unity</h3>
+                        <p class="p-job-desc" style="font-size: 1vw;">Part of the development team of <a href="https://heavencrawler.webflow.io/" target="_blank">Heaven Crawler</a> and [Unreleased Game]. Responsible for the entire in-game audio implementation and some game systems.</p>
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img src="assets/hcTitleScreen.png" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container">
+                <div>
+                    <div class="work-desc-paragraph">
+                        <a class="workplace-title" href="https://www.linkedin.com/company/attribute-overload/" target="_blank" style="font-size: 2.5vw;">Attribute Overload </a><i class="fa-solid fa-link" style="font-size: 2vw;"></i></i><br>
+                        <h3 class="h3-job-position" style="font-size: 1.5vw;">Programmer</h3>
+                        <h3 class="h3-job-time" style="font-size: 1.2vw;">March 2023 - Present</h3>
+                        <h3 class="h3-job-tools" style="font-size: 1vw;">Unreal Engine, Unity</h3>
+                        <p class="p-job-desc" style="font-size: 1vw;">Member of the development team that offer professional videogame development and interactive software services.</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2 class="h2-work-title" style="color: #293241; font-weight: lighter; font-size: 2.5vw;">Blix Studio<br></h2>
+                        <h3 class="h3-job-position" style="font-size: 1.5vw;">Flutter Programmer</h3>
+                        <h3 class="h3-job-time" style="font-size: 1.2vw;">October 2023 - January 2024</h3>
+                        <h3 class="h3-job-tools" style="font-size: 1vw;">Flutter</h3>
+                        <p class="p-job-desc" style="font-size: 1vw;">Front end developer of a sales application.</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container"> 
+                <div>
+                    <div class="work-desc-paragraph">
+                        <a class="workplace-title" href="https://carbonmachina.com/" target="_blank" style="font-size: 2.5vw;">Carbon Machina</a><i class="fa-solid fa-link" style="font-size: 1vw;"></i><br>
+                        <h3 class="h3-job-position" style="font-size: 1.5vw;">Gameplay Programmer</h3>
+                        <h3 class="h3-job-time" style="font-size: 1.2vw;">August 2021 - August 2022 (1 year)</h3>
+                        <h3 class="h3-job-tools" style="font-size: 1vw;">Unreal Engine 4, C++, Blueprints</h3>
+                        <p class="p-job-desc" style="font-size: 1vw;">Internship where I helped to improve the game framework, develop the main character's weapons logic, a farmsim crafting system.</p>
+                    </div>
+                    <div>
+                        <iframe style="width: 100%; height: auto;" src="https://www.youtube.com/embed/2jAtqXzW8D4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--PROJECTS-->
+        <div class="info-container" id="projectsSection">
+            <h1 class="h1-info-container" style="font-size: 3.5vw; text-align: center;">Projects<br></h1>
+
+            <div class="work-container">
+                <div>
+                    <div class="work-desc-paragraph">
+                        <h2 style="color: #293241; font-weight: lighter; font-size: 2.5vw;">Boo Engine<br></h2>
+                        <h3 class="h3-job-tools" style="font-size: 1vw;">C++, DirectX 11, OpenGL</h3>
+                        <p class="p-job-desc" style="font-size: 1vw;">Made from scratch. I use it to improve my C++ and graphics programming skills, as my video game engines architecture knowledge.</p>
+                    </div>
+                    <div style="align-items: center;">
+                        <iframe style="width: 100%; padding: 1vw 0vw;" src="https://www.youtube.com/embed/mfRMzHacc5I?si=SEPHV4ChZPHc-sv4" frameborder="0" allowfullscreen></iframe>
+                        <iframe style="width: 100%;" src="https://www.youtube.com/embed/4jd2eb8WBSY?si=roQ4tGhlrKE6UCnD" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-container">
+                <div class="work-column">
+                    <div class="work-desc-paragraph">
+                        <h2 style="color: #293241; font-weight: lighter; font-size: 2.5vw;">Capture and generation of hyperspectral images simulator<br></h2>
+                        <h3 class="h3-job-tools" style="font-size: 1vw;">Unreal Engine 4</h3>
+                        <p class="p-job-desc" style="font-size: 1vw;">School research project presented in spatial conferences around the country.<br>
+                           Responsible of the real-time image capture and export
+                           system made in Unreal Engine 4 and its transcription into the paper.</p>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SKILLS-->
+        <div class="info-container" id="skillsSection">
+            <h1 class="h1-info-container" style="font-size: 3.5vw; text-align: center;">Skills<br></h1>
+            <div class="work-container">
+                <div class="work-column">
+                    <div>
+                        <h2 class="h2-table-title-v">Languages<br></h2>
+                        <p class="p-table-row-v">C++<br></p>
+                        <p class="p-table-row-v">C#<br></p>
+                        <p class="p-table-row-v">HLSL<br></p>
+                        <p class="p-table-row-v">GLSL<br></p>
+                        <p class="p-table-row-v">Python<br></p>
+                        <p class="p-table-row-v">HTML5/CSS/JavaScript<br></p>
+                        <p class="p-table-row-v">Dart<br></p>
+                    </div>
+                    <div style="margin-right: 3vw;">
+                        <h2 class="h2-table-title-v">Engines/Frameworks/Tools<br></h2>
+                        <div style="display: flex; justify-content: space-between;">
+                            <div>
+                                <p class="p-table-row-v">Unreal Engine 4/5<br></p>
+                                <p class="p-table-row-v">Unity<br></p>
+                            </div>
+                            <div>
+                                <p class="p-table-row-v">SFML<br></p>
+                                <p class="p-table-row-v">ImGui<br></p>
+                                <p class="p-table-row-v">FMOD<br></p>
+                                <p class="p-table-row-v">Flutter</p>
+                                <p class="p-table-row-v">GitHub/GitBash<br></p>
+                                <p class="p-table-row-v">Perforce<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-right: 5vw;">
+                        <h2 class="h2-table-title-v">Fields<br></h2>
+                        <p class="p-table-row-v">Tools<br></p>
+                        <p class="p-table-row-v">Gameplay<br></p>
+                        <p class="p-table-row-v">Engine<br></p>
+                        <p class="p-table-row-v">Audio<br></p>
+                        <p class="p-table-row-v">User Interface<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <script>
     window.onscroll = function() { tryStick() };
-    
-    var header = document.getElementById("stickyHeader");
-    var sticky = header.offsetTop;
-    
+
+    window.addEventListener('resize', function() {
+        console.log(window.innerWidth + ': x ' + window.innerHeight + ': y');
+        changeLayout(window.innerWidth < 600);
+    });
+
     function tryStick()
     {
+      var isVertical = window.innerWidth < 600;
+      var header = document.getElementById(isVertical ? "stickyHeader-v" : "stickyHeader");
+      var sticky = header.offsetTop;
+
       if (window.pageYOffset > sticky) { header.classList.add("sticky"); }
       else { header.classList.remove("sticky"); }
     }
 
     function goToSection(sectionName)
     {
-        var section = document.getElementById(sectionName);
-        if (null != section) { section.scrollIntoView({ behavior: 'smooth' }); }
+      var section = document.getElementById(sectionName);
+      if (null != section) { section.scrollIntoView({ behavior: 'smooth' }); }
     }
+
+    function changeLayout(toVertical)
+    {
+      document.getElementById("horizontal-content").style.display = toVertical ? 'none' : 'block';
+      document.getElementById("vertical-content").style.display = toVertical ? 'block' : 'none';
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      changeLayout(window.innerWidth < 600);  
+    });
 </script>
 
 </html>

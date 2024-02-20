@@ -131,6 +131,10 @@ body {
     padding-top: 3vw;
 }
 
+.sticky + .vertical-content {
+    padding-top: 3vw;
+}
+
 .h1-info-container {
     color: #ee6c4d;
     padding-left: 1vw;
@@ -142,6 +146,10 @@ body {
 
 .h2-table-title {
     font-size: 0.9vw;
+}
+
+.h2-table-title-v {
+    font-size: 2vw;
 }
 
 .h2-work-title {
@@ -170,6 +178,10 @@ body {
 
 .p-table-row {
     font-size: 0.65vw;
+}
+
+.p-table-row-v {
+    font-size: 1.2vw;
 }
 
 .workplace-title:link {
