@@ -7,7 +7,7 @@ body {
     background-color: #293241;
     /*font-family: Georgia, serif;*/
     /*font-family: Raleway, "Source Sans Pro", Helvetica, Arial, sans-serif;*/
-    font-family: 'Raleway';
+    font-family: Raleway, "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 .info-container {
@@ -146,10 +146,9 @@ body {
 
 .header-v {
     display: flex;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     justify-content: right;
-    font-size: 3.5vw;
     background-color: #ee6c4d; /* Set a background color for the container */
 }
 
@@ -179,7 +178,7 @@ body {
     border: none;
     text-align: center;
     cursor: pointer;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: 'Raleway';
     font-weight: bold;
 }
@@ -190,7 +189,7 @@ body {
     border-radius: 0.5vw;
     text-align: center;
     cursor: pointer;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: 'Raleway';
     font-weight: bold;
 }
@@ -225,8 +224,8 @@ body {
     font-size: 6vw;
     text-align: center;
     letter-spacing: 0.1vw;
-    text-shadow: 0.08vw 0 #000000, -0.08vw 0 #000000, 0 0.08vw #000000, 0 -0.08vw #000000,
-                 0.05vw 0.05vw #000000, -0.05vw -0.05vw #000000, 0.05vw -0.05vw #000000, -0.05vw 0.05vw #000000;
+    text-shadow: 0.2vw 0 #000000, -0.2vw 0 #000000, 0 0.2vw #000000, 0 -0.2vw #000000,
+                 0.1vw 0.1vw #000000, -0.1vw -0.1vw #000000, 0.1vw -0.1vw #000000, -0.1vw 0.1vw #000000;
 }
 
 .h2-work-title {
