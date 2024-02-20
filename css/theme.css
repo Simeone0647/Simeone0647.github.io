@@ -71,7 +71,7 @@ body {
     padding-bottom: 0.5vw;
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
-    border-width: 0.1vw;
+    border-width: 0.3vw;
     border-style: solid;
     border-color: #ee6c4d;
 }
@@ -117,10 +117,10 @@ body {
 .work-container-v {
     width: 90%;
     margin: 0 auto; /* Center the container horizontally */
-    padding: 0.8vw; /* Add some padding inside the container */
+    padding: 1.5vw; /* Add some padding inside the container */
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
-    border-width: 0.1vw;
+    border-width: 0.3vw;
     border-style: solid;
     border-color: #ee6c4d;
     margin-bottom: 2vw; /* Adjust the value as needed */
@@ -141,6 +141,15 @@ body {
     padding-top: 0.6vw;
     padding-bottom: 0.6vw;
     justify-content: right;
+    background-color: #ee6c4d; /* Set a background color for the container */
+}
+
+.header-v {
+    display: flex;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    justify-content: right;
+    font-size: 3.5vw;
     background-color: #ee6c4d; /* Set a background color for the container */
 }
 
@@ -213,7 +222,7 @@ body {
 
 .h1-info-container-v {
     color: #ee6c4d;
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
     letter-spacing: 0.1vw;
     text-shadow: 0.08vw 0 #000000, -0.08vw 0 #000000, 0 0.08vw #000000, 0 -0.08vw #000000,
