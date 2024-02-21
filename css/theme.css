@@ -66,14 +66,16 @@ body {
     width: 90%;
     height: auto;
     margin: 0 auto;
-    padding-left:  1vw;
-    padding-right: 1vw;
+    padding-left:  3vw;
+    padding-right: 3vw;
     padding-bottom: 0.5vw;
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
     border-width: 0.3vw;
     border-style: solid;
     border-color: #ee6c4d;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .contact-icon-btn:link {
@@ -117,7 +119,7 @@ body {
 .work-container-v {
     width: 90%;
     margin: 0 auto; /* Center the container horizontally */
-    padding: 1.5vw; /* Add some padding inside the container */
+    padding: 2vw 3.5vw; /* Add some padding inside the container */
     background-color: #e0fbfc; /* Set a background color for the container */
     border-radius: 0.5vw;
     border-width: 0.3vw;
@@ -125,6 +127,8 @@ body {
     border-color: #ee6c4d;
     margin-bottom: 2vw; /* Adjust the value as needed */
     letter-spacing: 0.01vw;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .work-desc-paragraph {
