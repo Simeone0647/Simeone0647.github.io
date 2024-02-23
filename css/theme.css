@@ -168,6 +168,7 @@ body {
 }
 
 .header-button:hover {
+    color: #293241;
     background-color: #e0fbfc56;
     border: none;
     border-radius: 0.5vw;
@@ -190,6 +191,7 @@ body {
 }
 
 .header-button-v:hover {
+    color: #293241;
     background-color: #e0fbfc56;
     border: none;
     border-radius: 0.5vw;
